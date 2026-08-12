@@ -570,6 +570,7 @@ jobs:
             INFOPLIST_KEY_MeloNXGitCommit="$GITHUB_SHA" \
             INFOPLIST_KEY_MeloNXMoltenVKBuildVersion="$MVK_PACKAGE_VERSION" \
             INFOPLIST_KEY_MeloNXMoltenVKSHA256="$MVK_FINAL_SHA256" \
+            SWIFT_OPTIMIZATION_LEVEL=-Onone \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY='' \
@@ -598,6 +599,7 @@ jobs:
             INFOPLIST_KEY_MeloNXGitCommit="$GITHUB_SHA" \
             INFOPLIST_KEY_MeloNXMoltenVKBuildVersion="$MVK_PACKAGE_VERSION" \
             INFOPLIST_KEY_MeloNXMoltenVKSHA256="$MVK_FINAL_SHA256" \
+            SWIFT_OPTIMIZATION_LEVEL=-Onone \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY='' \
